@@ -37,7 +37,7 @@
         };
 
         del {
-            bindings = <&none>;
+            bindings = <&kp DEL>;
             key-positions = <24 11>;
         };
     };
