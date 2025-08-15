@@ -35,6 +35,11 @@
             key-positions = <41 42 43>;
             layers = <6>;
         };
+
+        del {
+            bindings = <&none>;
+            key-positions = <24 11>;
+        };
     };
 
     macros {
@@ -119,7 +124,7 @@
 
         nav {
             bindings = <
-&kp LS(TAB)  &kp N1         &kp N2          &kp N3           &kp N4       &kp N5                                 &kp N6    &kp N7        &kp N8         &kp N9       &kp N0            &kp DEL
+&kp LS(TAB)  &kp N1         &kp N2          &kp N3           &kp N4       &kp N5                                 &kp N6    &kp N7        &kp N8         &kp N9       &kp N0            &kp BACKSPACE
 &cl_win      &kp LC(LS(A))  &kp LA(LS(N1))  &kp LA(LS(F10))  &kp LS(INS)  &kp LS(F6)                             &kp LEFT  &kp DOWN      &kp UP         &kp RIGHT    &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))
 &kp LSHIFT   &trans         &kp HOME        &kp INS          &kp END      &kp LC(LS(GRAVE))                      &kp ESC   &kp LC(LEFT)  &kp PAGE_DOWN  &kp PAGE_UP  &kp LC(RIGHT)     &prnt_scr
                             &trans          &trans           &trans       &trans             &trans    &kp LGUI  &mo 5     &kp LEFT_ALT  &kp LCTRL      &trans
