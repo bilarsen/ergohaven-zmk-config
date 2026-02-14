@@ -146,10 +146,10 @@
 
         nav {
             bindings = <
-&kp TAB     &kp N1         &kp N2          &kp N3           &kp N4       &kp N5                             &kp N6    &kp N7         &kp N8         &kp N9       &kp N0            &del_morph
-&trans      &kp LC(LS(A))  &kp LA(LS(N1))  &kp LA(LS(F10))  &kp LS(INS)  &kp LS(F6)                         &kp LEFT  &kp DOWN       &kp UP         &kp RIGHT    &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))
-&kp LSHIFT  &kp LC(C)      &kp HOME        &kp LS(DEL)      &kp END      &kp LC(LA(B))                      &kp ESC   &kp LC(LS(C))  &kp PAGE_DOWN  &kp PAGE_UP  &kp LC(LS(V))     &kp LC(LS(GRAVE))
-                           &cl_win         &trans           &trans       &trans         &trans    &kp LGUI  &mo 5     &kp LEFT_ALT   &kp LCTRL      &trans
+&kp TAB       &kp N1         &kp N2          &kp N3           &kp N4       &kp N5                             &kp N6    &kp N7         &kp N8         &kp N9       &kp N0            &del_morph
+&kp CAPSLOCK  &kp LC(LS(A))  &kp LA(LS(N1))  &kp LA(LS(F10))  &kp LS(INS)  &kp LS(F6)                         &kp LEFT  &kp DOWN       &kp UP         &kp RIGHT    &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))
+&kp LSHIFT    &kp LC(C)      &kp HOME        &kp LS(DEL)      &kp END      &kp LC(LA(B))                      &kp ESC   &kp LC(LS(C))  &kp PAGE_DOWN  &kp PAGE_UP  &kp LC(LS(V))     &kp LC(LS(GRAVE))
+                             &cl_win         &trans           &trans       &trans         &trans    &kp LGUI  &mo 5     &kp LEFT_ALT   &kp LCTRL      &trans
             >;
 
             display-name = "nav";
@@ -172,7 +172,7 @@
             bindings = <
 &trans         &en HASH          &en LT    &kp EQUAL     &en GT       &en GRAVE                    &en CARET  &kp RU_DQT  &kp UNDER    &en SQT   &trans      &trans
 &kp RU_NUMERO  &kp RU_BACKSLASH  &kp LPAR  &kp MINUS     &kp RPAR     &kp PLUS                     &kp PRCNT  &en LBRC    &kp RU_SEMI  &kp RBRC  &kp EXCL    &kp RU_QMARK
-&trans         &kp RU_COMMA      &kp STAR  &kp RU_COLON  &kp RU_FSLH  &en DLLR                     &en AT     &en PIPE    &en TILDE    &en AMPS  &kp RU_DOT  &kp LC(RU_SLASH)
+&trans         &kp RU_COMMA      &kp STAR  &kp RU_COLON  &kp RU_FSLH  &en DLLR                     &en AT     &en PIPE    &en TILDE    &en AMPS  &kp RU_DOT  &kp LC(SLASH)
                                  &en LBKT  &en RBKT      &trans       &mo 5      &trans    &trans  &trans     &trans      &en LBKT     &en RBKT
             >;
         };
@@ -180,7 +180,7 @@
         adj {
             bindings = <
 &bootloader  &none  &kp F1  &kp F2   &kp F3   &kp F4                   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-&none        &none  &kp F5  &kp F6   &kp F7   &kp F8                   &out OUT_BLE  &kp C_VOL_DN  &kp K_MUTE        &kp C_VOL_UP  &none         &studio_unlock
+&cl_win      &none  &kp F5  &kp F6   &kp F7   &kp F8                   &out OUT_BLE  &kp C_VOL_DN  &kp K_MUTE        &kp C_VOL_UP  &none         &studio_unlock
 &none        &none  &kp F9  &kp F10  &kp F11  &kp F12                  &out OUT_USB  &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_NEXT    &none         &prnt_scr
                     &none   &none    &none    &none    &none    &none  &none         &none         &none             &none
             >;
